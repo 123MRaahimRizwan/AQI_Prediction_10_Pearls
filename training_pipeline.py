@@ -21,7 +21,6 @@ import os
 # -----------------------------
 # MongoDB connection
 # -----------------------------
-# MONGO_URI = "mongodb+srv://rizwan4601146_db_user:5G1bLMeOqUeWviQP@10pearlsaqicluster.rrn5bw6.mongodb.net/?appName=10PearlsAQICluster"
 MONGO_URI = os.getenv("MONGO_URI")
 client = MongoClient(MONGO_URI, server_api=ServerApi('1'))
 
@@ -117,6 +116,3 @@ registry.update_one(
 )
 
 print(f"\nBest model selected: {best_model['model_name']}")
-
-
-
