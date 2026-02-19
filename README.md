@@ -4,6 +4,10 @@ An end-to-end **Machine Learning + MLOps pipeline** for forecasting Air Quality 
 
 ---
 
+## ⚙️ Project Report
+
+A detailed report of this project can be found here: [AQI Prediction Report](https://drive.google.com/file/d/1F79r8XpQ8SG3bMnWPEAhS6CrkEGN9HLC/view)
+
 ## 🚀 Project Overview
 
 This project predicts the **next 72 hours of AQI** for Karachi by:
